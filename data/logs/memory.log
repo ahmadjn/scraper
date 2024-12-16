@@ -1,0 +1,16 @@
+{
+  "timestamp": "2024-12-16T12:37:49.274Z",
+  "context": "start_scraping_urls",
+  "heapUsed": "14.04 MB",
+  "heapTotal": "19.72 MB",
+  "rss": "65.38 MB",
+  "external": "3.07 MB"
+}
+{
+  "timestamp": "2024-12-16T12:38:28.097Z",
+  "context": "end_scraping_urls",
+  "heapUsed": "70.99 MB",
+  "heapTotal": "98.83 MB",
+  "rss": "317.94 MB",
+  "external": "6.8 MB"
+}

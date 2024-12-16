@@ -1,0 +1,27 @@
+{
+  "name": "nodejsscraperwtrlab",
+  "version": "1.0.0",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape:urls": "node src/commands/scrapeNovelUrls.js",
+    "scrape:details": "node src/commands/scrapeNovelDetails.js",
+    "scrape:chapters": "node src/commands/scrapeChapters.js",
+    "scrape:all": "node src/commands/scrapeAll.js",
+    "benchmark": "node src/commands/benchmark.js",
+    "update:titles": "node src/commands/updateTitles.js",
+    "retry:chapters": "node src/commands/retryFailedChapters.js",
+    "verify": "node src/commands/verifyData.js"
+  },
+  "keywords": [],
+  "author": "ahmadjn",
+  "license": "ISC",
+  "description": "scraper novel wtrlab untuk readmtlnovels.com",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
+    "title-case": "^4.3.2"
+  }
+}
